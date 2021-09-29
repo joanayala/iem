@@ -7,3 +7,4 @@ class people(models.Model) :
     id_type = models.IntegerField()
     number_id = models.CharField(max_length=100)
     address = models.CharField(max_length=100, default = "")
+    email = models.CharField(max_length=100, default="")
